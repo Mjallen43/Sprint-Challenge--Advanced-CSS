@@ -14,6 +14,13 @@
   
   }
 
+  .intro {
+    width: 100%;
+
+    img {
+      .rounded;
+    }
+  }
   .space-images {
     display: flex;
     flex-wrap: wrap;
@@ -57,7 +64,17 @@
         margin-bottom: 26px;
       }
 
-      .btn {
+      .btn button {
+        font-size: 1.7rem;
+        color: white;
+        border-radius: 8px;
+        background-color: #22283A;
+        padding: 2.5% 7%;
+      }
+
+      .btn button:hover {
+        background-color: white;
+        color: #22283A
       }
     }
 
@@ -68,8 +85,66 @@
       img {
         width: 100%;
         height: auto;
-        border-radius: 10px;
+        border-radius: 10px;      
       }
+    }
+  }
+
+  @media screen and (max-width:500px) {
+    .space-images {
+      display: flex;
+      justify-content: center;
+
+        .blast {
+          width: 100%;
+          height: auto;
+        }
+    }
+
+    .intro {
+
+      img {
+        width: 100%;
+        height: auto;
+        border-radius: 5px;
+      }
+    }
+    .sky {
+      display: none;
+    }
+
+    .launch {
+      display: none;
+    }
+
+    .btn {
+      display: flex;
+
+      button {
+        width: 100%;
+      
+      }
+    }
+
+    .walk-text {
+
+      h3 {
+        margin: 100% 0%;
+      }
+      p {
+        width: 200%;
+      }
+    }
+
+    .walk {
+      
+      .walk-img {
+
+        img {
+          width: 100%;
+        }
+      }
+
     }
   }
 }// home

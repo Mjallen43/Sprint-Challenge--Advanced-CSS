@@ -33,14 +33,20 @@ Demonstrate your understanding of this week's concepts by answering the followin
 Edit this document to include your answers after each question. Make sure to leave a blank line above and below your answer so it is clear and easy to read by your project manager
 
 1. What is the difference between an adaptive website and a fully responsive website?
+    An adaptive website is the cheap and easy way to accomodate multiple devices and certain things like layout widths are hardcoded with pixels. Used for fast deplyoment for specific devices. Responsive websites utilize responsive units like em and rem. Responsive accomodates thousands of devices by combining features of fixed, adaptive, and fluid sites, creating a better user experience.
 
 2. Describe what it means to be mobile first vs desktop first.
+    With mobile first, you are designing the page(s) to look and function best on mobile devices.
+    With desktop first, pages are designed to function and look best on desktop.
 
 3. What does `font-size: 62.5%` in the `html` tag do for us when using `rem` units?
+    This allows us to get away from hardcoding font sizes with pixels, and if the user's browswer allows them to scale or zoom in on the page, rem will allow them to do that. Also allows for simpler calculations when using em or rem because it sets font size to 10x, so 1 em and 1 rem will now equal 10px.
 
 4. How would you describe preprocessing to someone new to CSS?
+    It's like an extension we can add to CSS that adds features that don't exist in regular CSS. These features allow us to structure our CSS in an easier, more readable manner.
 
 5. What is your favorite concept in preprocessing? What is the concept that gives you the most trouble?
+    I really like the nesting feature because it is similar to Javascript and it makes it so much easier to keep the styles that are supposed to be with each other, together. Escaping is the concept that is giving me the most trouble.
 
 You are expected to be able to answer all these questions. Your responses contribute to your Sprint Challenge grade. Skipping this section *will* prevent you from passing this challenge.
 
