@@ -18,7 +18,7 @@
     width: 100%;
 
     img {
-      border-radius: 15px;
+      .rounded;
     }
   }
   .space-images {
@@ -87,6 +87,64 @@
         height: auto;
         border-radius: 10px;      
       }
+    }
+  }
+
+  @media screen and (max-width:500px) {
+    .space-images {
+      display: flex;
+      justify-content: center;
+
+        .blast {
+          width: 100%;
+          height: auto;
+        }
+    }
+
+    .intro {
+
+      img {
+        width: 100%;
+        height: auto;
+        border-radius: 5px;
+      }
+    }
+    .sky {
+      display: none;
+    }
+
+    .launch {
+      display: none;
+    }
+
+    .btn {
+      display: flex;
+
+      button {
+        width: 100%;
+      
+      }
+    }
+
+    .walk-text {
+
+      h3 {
+        margin: 100% 0%;
+      }
+      p {
+        width: 200%;
+      }
+    }
+
+    .walk {
+      
+      .walk-img {
+
+        img {
+          width: 100%;
+        }
+      }
+
     }
   }
 }// home

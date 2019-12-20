@@ -257,3 +257,39 @@ footer {
   height: auto;
   border-radius: 10px;
 }
+@media screen and (max-width: 500px) {
+  .home .space-images {
+    display: flex;
+    justify-content: center;
+  }
+  .home .space-images .blast {
+    width: 100%;
+    height: auto;
+  }
+  .home .intro img {
+    width: 100%;
+    height: auto;
+    border-radius: 5px;
+  }
+  .home .sky {
+    display: none;
+  }
+  .home .launch {
+    display: none;
+  }
+  .home .btn {
+    display: flex;
+  }
+  .home .btn button {
+    width: 100%;
+  }
+  .home .walk-text h3 {
+    margin: 100% 0%;
+  }
+  .home .walk-text p {
+    width: 200%;
+  }
+  .home .walk .walk-img img {
+    width: 100%;
+  }
+}
